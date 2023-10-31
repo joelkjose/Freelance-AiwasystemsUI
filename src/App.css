@@ -1,0 +1,42 @@
+thead{
+  color: "#012970";
+}
+th{
+  color: "#012970";
+
+}/* Custom CSS to style the tags */
+.react-tagsinput-tag {
+  background-color: #007bff; /* Background color */
+  color: #fff; /* Text color */
+  padding: 4px 8px; /* Padding */
+  margin-right: 4px; /* Margin between tags */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 14px; /* Font size */
+}
+
+/* Style the input field */
+.react-tagsinput-input {
+display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-size: 14px; /* Font size */
+}
+
+/* Style the container */
+.react-tagsinput {
+  display: flex; /* Display tags in a flex container */
+  flex-wrap: wrap; /* Allow tags to wrap to the next line */
+  align-items: center; /* Center align tags vertically */
+}
